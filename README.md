@@ -1,11 +1,13 @@
 <h1 align="center">🌿 Rasa Priangan</h1>
 
-![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge\&logo=php)
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-4-EF4223?style=for-the-badge\&logo=codeigniter)
-![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge\&logo=mysql)
-![Leaflet](https://img.shields.io/badge/Leaflet-JS-199900?style=for-the-badge\&logo=leaflet)
-![Status](https://img.shields.io/badge/Status-Academic_Project-success?style=for-the-badge)
-![Hosting](https://img.shields.io/badge/Hosting-InfinityFree-blue?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php" />
+  <img src="https://img.shields.io/badge/CodeIgniter-4-EF4223?style=for-the-badge&logo=codeigniter" />
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql" />
+  <img src="https://img.shields.io/badge/Leaflet-JS-199900?style=for-the-badge&logo=leaflet" />
+  <img src="https://img.shields.io/badge/Status-Academic_Project-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Hosting-InfinityFree-blue?style=for-the-badge" />
+</p>
 
 **Sistem Informasi Geografis Pusat Oleh-Oleh Khas Kota Sukabumi**
 
