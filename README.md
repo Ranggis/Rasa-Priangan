@@ -1,60 +1,101 @@
-# CodeIgniter 4 Framework
+<h1 align="center">🌿 Rasa Priangan</h1>
 
-## What is CodeIgniter?
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge\&logo=php)
+![CodeIgniter](https://img.shields.io/badge/CodeIgniter-4-EF4223?style=for-the-badge\&logo=codeigniter)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge\&logo=mysql)
+![Leaflet](https://img.shields.io/badge/Leaflet-JS-199900?style=for-the-badge\&logo=leaflet)
+![Status](https://img.shields.io/badge/Status-Academic_Project-success?style=for-the-badge)
+![Hosting](https://img.shields.io/badge/Hosting-InfinityFree-blue?style=for-the-badge)
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+**Sistem Informasi Geografis Pusat Oleh-Oleh Khas Kota Sukabumi**
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+🔗 **Live Website:**
+👉 [https://rasa-priangan.infinityfree.me/](https://rasa-priangan.infinityfree.me/)
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+---
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## 📌 Deskripsi Proyek
 
-## Important Change with index.php
+**Rasa Priangan** merupakan aplikasi **Sistem Informasi Geografis (SIG) berbasis web** yang dirancang untuk menyajikan informasi lokasi pusat oleh-oleh khas Kota Sukabumi secara interaktif. Sistem ini memanfaatkan peta digital untuk menampilkan titik lokasi, informasi produk, serta visualisasi wilayah, sehingga memudahkan pengguna dalam menemukan pusat oleh-oleh secara akurat dan efisien.
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+Aplikasi ini dikembangkan sebagai bagian dari implementasi teknologi SIG pada bidang pariwisata dan ekonomi kreatif daerah.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+---
 
-**Please** read the user guide for a better explanation of how CI4 works!
+## 🎯 Tujuan Pengembangan
 
-## Repository Management
+* Menyediakan informasi lokasi pusat oleh-oleh khas Sukabumi secara visual dan interaktif
+* Membantu wisatawan dan masyarakat lokal menemukan pusat oleh-oleh terdekat
+* Meningkatkan pemanfaatan teknologi SIG dalam pemetaan UMKM daerah
+* Mendukung promosi produk lokal berbasis data spasial
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+---
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+## 🗺️ Fitur Utama
 
-## Contributing
+* 🧭 Peta interaktif berbasis Leaflet
+* 📍 Penanda lokasi pusat oleh-oleh
+* 🏪 Informasi detail lokasi dan produk
+* 🗂️ Klasifikasi lokasi berdasarkan kategori
+* 🔍 Visualisasi data spasial GeoJSON (point dan polygon)
+* 🤖 Layer GeoAI sederhana (rule-based / visual layer)
+* 🌐 Tampilan website responsif dan mudah digunakan
 
-We welcome contributions from the community.
+---
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+## 🧠 Konsep GeoAI
 
-## Server Requirements
+Sistem ini mengimplementasikan **layer GeoAI** sebagai pelengkap analisis spasial, yang digunakan untuk:
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+* Menunjukkan persebaran pusat oleh-oleh
+* Menggambarkan kepadatan lokasi pada area tertentu
+* Memberikan interpretasi wilayah berdasarkan aturan sederhana
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+Pendekatan GeoAI ini bertujuan untuk meningkatkan nilai analisis peta, bukan hanya sebagai media visualisasi statis.
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+---
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+## 🛠️ Teknologi yang Digunakan
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** PHP (CodeIgniter 4)
+* **Database:** MySQL
+* **Peta Digital:** Leaflet.js
+* **Format Data Spasial:** GeoJSON
+* **Hosting:** InfinityFree
+
+---
+
+## 🧩 Gambaran Sistem
+
+* **User Interface:** Menampilkan peta dan informasi pusat oleh-oleh
+* **Controller:** Mengelola logika aplikasi dan data GeoJSON
+* **Model:** Mengakses dan mengolah data dari database
+* **Database:** Menyimpan data lokasi, kategori, dan atribut pendukung
+
+---
+
+## 🚀 Cara Menjalankan Secara Lokal
+
+1. Clone repository proyek
+2. Pindahkan folder proyek ke direktori `htdocs` (XAMPP)
+3. Import database ke MySQL
+4. Konfigurasikan koneksi database pada file `.env`
+5. Jalankan aplikasi melalui browser dengan alamat:
+
+   ```
+   http://localhost:8080
+   ```
+
+---
+
+## 👤 Pengembang
+
+**Ranggis**
+Mahasiswa | Pengembang Web & Sistem Informasi Geografis
+
+---
+
+## 📄 Lisensi
+
+Proyek ini dikembangkan untuk keperluan **akademik dan pembelajaran**. Penggunaan dan pengembangan lanjutan diperbolehkan dengan mencantumkan sumber.
