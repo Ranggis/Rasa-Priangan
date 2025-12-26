@@ -9,11 +9,13 @@
   <img src="https://img.shields.io/badge/Hosting-InfinityFree-blue?style=for-the-badge" />
 </p>
 
-<p align="center">🌿 Sistem Informasi Geografis Pusat Oleh-Oleh Khas Kota Sukabumi
+<p align="center">
+  🌿 Sistem Informasi Geografis Pusat Oleh-Oleh Khas Kota Sukabumi
+</p>
 
-🔗 **Live Website:**
-👉 [https://rasa-priangan.infinityfree.me/](https://rasa-priangan.infinityfree.me/)
-
+<p align="center">
+  🔗 <strong>Live Website:</strong><br>
+  <a href="https://rasa-priangan.infinityfree.me/">https://rasa-priangan.infinityfree.me/</a>
 </p>
 
 ---
