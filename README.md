@@ -1,6 +1,10 @@
 <h1 align="center">🌿 Rasa Priangan</h1>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/Ranggis/Api-Image/main/favicon.ico"/>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php" />
   <img src="https://img.shields.io/badge/CodeIgniter-4-EF4223?style=for-the-badge&logo=codeigniter" />
   <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql" />
