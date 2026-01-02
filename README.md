@@ -1,4 +1,4 @@
-<h1 align="center">🌿 Rasa Priangan</h1>
+<h1 align="center">Rasa Priangan</h1>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Ranggis/Api-Image/main/favicon.ico"/>
